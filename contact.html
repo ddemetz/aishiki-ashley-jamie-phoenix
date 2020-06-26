@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Translations for Black Lives Matter</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  
+    <div class="stack">
+
+      <div>
+        <img src="https://i.pinimg.com/originals/1c/35/d4/1c35d482dcccb28ae1034bb5ebe0cc52.png" class="icon">
+      </div>
+
+      <!-- <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div> -->
+
+    <ul class="nav">
+      <li class="nav"><a href="index.html">Home</a></li>
+      <li class="nav"><a href="letters.html">Letters</a></li>
+      <li class="nav"><a href="contact.html">Contact</a></li>
+      <li class="nav"><a href="email.html">Demand Change</a></li>
+      <li class="nav"><a href="links.html">Resources</a></li>
+
+    </ul>
+
+
+
+    <div class="header">
+      <h1 class="title">Contact Us</h1>
+    </div> 
+
+
+        <div id="google_translate_element"></div>
+
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+          }
+        </script>
+
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+          
+    <div class="flexTextParent">
+      <div class="mainTextContainer">
+        <h2>Contact us!</h2>
+        <div class="container">
+          <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fnameC" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lnameC" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="countryC" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subjectC" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			<!-- @Jamie this is how I have done a button in the past and didn't have to use any JS if it helps 
+			
+			for the onclick you just link to a new page/html file for the thank you message -->
+            <input class="button submit" type="button" onclick="window.location.href = 'thank.html';" value="Submit"/> 
+            <!-- <button id="submitC" class="submit">Submit</button> -->
+          </form>
+        </div>
+      </div>
+
+
+      <div class="sideTextContainer">
+        <h2>Other Contact Information</h2>
+        <p>
+          Oregon, OR 12345, USA
+          <br>
+          <br>
+          + 03 134 367 59
+          <br>
+          <br>
+          contact@jdemail.com
+        </p>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

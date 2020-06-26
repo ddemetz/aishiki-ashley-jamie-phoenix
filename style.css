@@ -1,0 +1,216 @@
+/*Importing Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+/*-----------------------------------------*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+  /*text stuff*/
+  padding: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+
+  /*image stuff*/
+  background-image: url("https://miro.medium.com/proxy/0*Ig7fDhRCuMxs-E-O");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  height: 300px;
+}
+
+
+.title {
+  padding-top: 80px;
+}
+
+
+.flexTextParent {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.mainTextContainer {
+  margin-left: 200px;
+  margin-right: 100px;
+  max-width: 50%;
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.sideTextContainer {
+  max-width: 30%;
+  margin-right: 200px;
+
+}
+
+
+
+.blmLink {
+  color: #fce21b;
+  text-align: center;
+
+}
+
+.pageLink{
+  color: black;
+}
+
+
+/*-----------------------------------------*/
+
+/*NAVBAR stuff */
+/*Icon*/
+.icon { /*consider changing size to percentage*/
+  width: 10%;/* 250px or 20% */
+  max-width:150px;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin-left: 10%;
+
+  /* width: 100%;
+  max-width: 100px;
+  height: auto; */
+}
+
+/* .whole-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(29, 29, 29);
+  border-bottom: 5px solid #fce21b;
+}
+
+.tabs {
+  display: flex;
+} */
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(29, 29, 29);
+  border-bottom: 5px solid #fce21b;
+  height: 10%; /*change height to percentage? --100px here and on li*/
+  /* min-height: 30px; */
+  /* max-height: 100px; */
+  position: relative;
+}
+
+li.nav {
+  float: right;
+  height: 10%;
+  /* min-height: 30px; */
+  /* max-height: 100px; */
+  background-color: rgb(29, 29, 29);
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  height: 10%;
+  /* min-height: 30px; */
+  /* max-height: 100px; */
+  
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: #fce21b;
+  height: 10%;
+}
+
+
+/*-----------------------------------------*/
+/*Email Form*/
+#hidden{
+  opacity:0;
+}
+
+#email-message {
+  white-space: pre;
+  overflow-wrap: break-word;
+  overflow: wrap;
+}
+
+/*-----------------------------------------*/
+
+
+/*contact form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+
+/* Style the submit button with a specific background color etc */
+.submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.article1 {
+  font-size: 20px;
+}
+
+.articleNames {
+  font-size: 17px;
+  color: black;
+
+}
+.movieIcons{
+    max-width: 110%;
+}

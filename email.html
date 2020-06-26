@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Translations for Black Lives Matter</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  
+    <div class="stack">
+
+      <div>
+        <img src="https://i.pinimg.com/originals/1c/35/d4/1c35d482dcccb28ae1034bb5ebe0cc52.png" class="icon">
+      </div>
+
+      <!-- <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div> -->
+
+    <ul class="nav">
+      <li class="nav"><a href="index.html">Home</a></li>
+      <li class="nav"><a href="letters.html">Letters</a></li>
+      <li class="nav"><a href="contact.html">Contact</a></li>
+      <li class="nav"><a href="email.html">Demand Change</a></li>
+      <li class="nav"><a href="links.html">Resources</a></li>
+    </ul>
+
+
+    <div class="header">
+      <h1 class="title">Translations for Black Lives Matter</h1>
+      <!-- <h3>Link to BLM Page</h3> -->
+      <a class="blmLink" href="https://blacklivesmatter.com/global-actions/">Visit BLM.com</a>
+    </div> 
+
+        <div id="google_translate_element"></div>
+
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+          }
+        </script>
+
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          
+    <div class="flexTextParent">
+      <div class="mainTextContainer">
+        <h2>
+          Send an email to demand change!
+        </h2>
+        <!-- form -->
+        <!-- The onsubmit attribute is a failsafe in case our js isn't working correctly (and is optional) -->
+        <form onsubmit="return false;">
+          <input type="text" placeholder="First Name" id="fname">
+          <input type="text" placeholder="Last Name" id="lname">
+          <input type='submit' id="submit" class="submit">
+        </form>
+
+        <!-- This is given an id of hidden because in the css, the #hidden opacity is set to 0 to make it invisible for now-->
+        <div id="hidden">
+          <p>Subject:</p>
+        
+        <p id="email-subject">
+        <!-- This will be empty so you can interpolate a message in js --></p>
+        <p>Message:</p>
+        <p>To whom it may concern,</p>
+        <p id="email-message1">
+          <!-- This will be empty so you can interpolate a message in js -->
+        </p>
+
+        <p>
+          Thank you for taking the time to read this email. I hope you take the issues I have raised seriously. I look forward to reading your response.
+        </p>
+
+        <p>
+        Black Lives Matter.
+        </p>
+
+        <p>Sincerely,</p>
+
+        <p id="email-message2">
+          <!-- For the signature -->
+        </p>
+
+        <p> If this looks good, copy and paste into your email or
+          <!-- The link for this <a> tag is empty because the JS will interpolate the email pop up -->
+        <a id="email-pop-up" href="">send here</a>.</p>
+        
+      </div>
+    </div>
+      <div class="sideTextContainer">
+          <h2>
+            Helpful Links
+          </h2>
+          <a href="https://www.nga.org/governors/">
+          <p class="articleNames">
+            A List of State Governors
+          </p>
+          </a>
+          <a href="https://www.senate.gov/senators/index.htm">
+          <p class="articleNames">
+            A List of State Senators
+          </p>
+          </a>
+      </div>
+
+      <!-- links to js and jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+    </div>
+
+
+
+
+  </body>
+</html>
+
